@@ -1,0 +1,87 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+@import "bootstrap-sprockets";
+@import "bootstrap";
+@import "toastr";
+
+// 空白区切りは親子
+.jumbotron {
+  padding-top: 0px;
+  // 背景画像を暗くする
+  background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.05) ), url(new-york-2699520_1920.jpg);
+  background-size: cover;
+  // 背景画像の位置を決める
+  background-position: 50% 50%;
+  height: 420px;
+}
+
+.jumbotron .container .row{
+  margin-top: 100px;
+  color: #fff;
+}
+
+.navbar-default {
+  background: transparent;
+  border-color: transparent;
+  z-index: 10;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: white;
+  font-size: 13px;
+}
+
+.navbar-default .navbar-brand {
+  color: white;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #fff;
+}
+
+//navba-devise
+.navbar-devise {
+  background: #fff;
+  border-color: #fff;
+  z-index: 10;
+}
+
+.navbar-devise {
+  .navbar-nav {
+    >li {
+      >a {
+        color: #222222;
+        font-size: 13px
+      }
+    }
+  }
+}
+
+.navbar-devise  {
+  .navbar-brand {
+    color: #222222;
+  }
+}
+
+// dropdown
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+  background-color: transparent;
+  color: #555;
+}
+body{
+  color: #222;
+  background-color: #F8F8F8;
+}
