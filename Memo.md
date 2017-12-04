@@ -25,6 +25,17 @@
     - アクションが発生した時とか
     - scssの場合,&:(class)
     
+- タグ
+    - \<hr> : 水平線
+     
+- width ~~％
+    - 親クラスに対する割合
+- bootstrap colの基本    
+    - class = “col-{prefix}-{columns}”
+    - class = {columns}は合計が12 
+    - class = rowの中に書く
+
+# rails 
 flash[:notice] = "Signed in successfully."   
 f[0] = :notice ,f[1] = ':Signed in successfully." 
 
@@ -36,3 +47,7 @@ str.gsub(pattern, replacement)
 toastr['<%= type %>']('<%= f[1] %>');
 ```
 toastr.info('Are you the 6 fingered man?')
+
+# TODO
+- current_user.providerとは
+- devise_for
