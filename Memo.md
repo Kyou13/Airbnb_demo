@@ -51,3 +51,5 @@ toastr.info('Are you the 6 fingered man?')
 # TODO
 - current_user.providerとは
 - devise_for
+- model g user:references
+- has_many belongstoの関係
