@@ -36,6 +36,7 @@
     - class = rowの中に書く
 
 # rails 
+- コントローラ名は複数
 flash[:notice] = "Signed in successfully."   
 f[0] = :notice ,f[1] = ':Signed in successfully." 
 
@@ -48,8 +49,17 @@ toastr['<%= type %>']('<%= f[1] %>');
 ```
 toastr.info('Are you the 6 fingered man?')
 
+- resources
+    - RESTfulかつ標準的なアクション(index/create/new/edit/show/update/destroy)のルーティングを自動生成
+    - id有り
+- resource
+    - idを参照すること無いとき使う    
+    - 共通のページ
+    
+
 # TODO
 - current_user.providerとは
 - devise_for
 - model g user:references
 - has_many belongstoの関係
+- beforeaction :authenticate_user!
