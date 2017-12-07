@@ -55,6 +55,11 @@ toastr.info('Are you the 6 fingered man?')
 - resource
     - idを参照すること無いとき使う    
     - 共通のページ
+- formfor
+    - methodなどの状況によってコード自動生成    
+
+- get 'manage-listing/:id/basics' => 'listings#basics', as: 'manage-listing_basics'    
+    - 左から uri => action ,as: prefix
     
 
 # TODO
