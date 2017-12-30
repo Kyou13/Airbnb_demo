@@ -42,6 +42,7 @@ class ListingsController < ApplicationController
   def price
   end
   def photos
+    @photo = Photo.new
   end
   def calendar
   end
