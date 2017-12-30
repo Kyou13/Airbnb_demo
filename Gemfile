@@ -70,3 +70,4 @@ group :production do
 end
 
 gem 'aws-sdk', '~> 2.3'
+gem 'geocoder'
