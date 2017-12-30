@@ -8,7 +8,7 @@
 .jumbotron {
   padding-top: 0px;
   // 背景画像を暗くする
-  background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.05) ), url(person-845325_1920.jpg);
+  background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.05) ), url(new-york-2699520_1920.jpg);
   background-size: cover;
   // 背景画像の位置を決める
   background-position: 50% 50%;
@@ -188,6 +188,63 @@
 
 .dropzone.dz-started .dz-message {
   display: block;
+}
+
+// listings/indexのcss
+a.sidebar-item {
+  font-size: 16px;
+  color: #222;
+}
+
+.sidebar-list li.active {
+  font-weight: bold;
+}
+
+.ul-unstyled{
+  list-style: none; padding-left: 0;
+}
+
+li.panel-body {
+  border-top: 1px solid #eeeeee;
+}
+
+li.panel-body:first-child {
+  border-top: none;
+}
+
+span.listing-title {
+  font-size: 18px;
+}
+
+.row-table{
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+}
+
+.col-middle{
+  vertical-align: middle;
+  display: table-cell;
+  float: none;
+}
+
+.panel-list-img {
+  height: 61px;
+}
+
+.panel-list-img img {
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 767px){
+  .row-table, .col-middle{
+    display: block;
+  }
+
+  .panel-list-img {
+    height: 170px;
+  }
 }
 
 body {
