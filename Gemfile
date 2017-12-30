@@ -64,4 +64,7 @@ gem "figaro"
 #   gem 'sqlite3'
 # end
 gem 'sqlite3', groups: %w(test development), require: false
-gem 'pg', groups: %w(production), require: false
+group :production do
+  gem 'pg'
+  gem 'rails_12factor'
+end

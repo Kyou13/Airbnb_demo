@@ -137,15 +137,15 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library">
-      <library name="autoprefixer-rails (vbundled(7.1.6)) [path][gem]">
+      <library name="autoprefixer-rails (vbundled(7.2.3)) [path][gem]">
         <CLASSES>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/autoprefixer-rails-7.1.6/lib" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/autoprefixer-rails-7.1.6/vendor" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/autoprefixer-rails-7.2.3/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/autoprefixer-rails-7.2.3/vendor" />
         </CLASSES>
         <JAVADOC />
         <SOURCES>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/autoprefixer-rails-7.1.6/lib" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/autoprefixer-rails-7.1.6/vendor" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/autoprefixer-rails-7.2.3/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/autoprefixer-rails-7.2.3/vendor" />
         </SOURCES>
       </library>
     </orderEntry>
@@ -432,13 +432,13 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library">
-      <library name="hashie (vbundled(3.5.6)) [path][gem]">
+      <library name="hashie (vbundled(3.5.7)) [path][gem]">
         <CLASSES>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/hashie-3.5.6/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/hashie-3.5.7/lib" />
         </CLASSES>
         <JAVADOC />
         <SOURCES>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/hashie-3.5.6/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/hashie-3.5.7/lib" />
         </SOURCES>
       </library>
     </orderEntry>
@@ -650,17 +650,17 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library">
-      <library name="nio4r (vbundled(2.1.0)) [path][gem]">
+      <library name="nio4r (vbundled(2.2.0)) [path][gem]">
         <CLASSES>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/nio4r-2.1.0/ext" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/nio4r-2.1.0/lib" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/nio4r-2.1.0/tasks" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/nio4r-2.2.0/ext" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/nio4r-2.2.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/nio4r-2.2.0/tasks" />
         </CLASSES>
         <JAVADOC />
         <SOURCES>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/nio4r-2.1.0/ext" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/nio4r-2.1.0/lib" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/nio4r-2.1.0/tasks" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/nio4r-2.2.0/ext" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/nio4r-2.2.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/nio4r-2.2.0/tasks" />
         </SOURCES>
       </library>
     </orderEntry>
@@ -697,15 +697,15 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library">
-      <library name="omniauth (vbundled(1.7.1)) [path][gem]">
+      <library name="omniauth (vbundled(1.8.1)) [path][gem]">
         <CLASSES>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/omniauth-1.7.1/lib" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/omniauth-1.7.1/.github" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/omniauth-1.8.1/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/omniauth-1.8.1/.github" />
         </CLASSES>
         <JAVADOC />
         <SOURCES>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/omniauth-1.7.1/lib" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/omniauth-1.7.1/.github" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/omniauth-1.8.1/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/omniauth-1.8.1/.github" />
         </SOURCES>
       </library>
     </orderEntry>
@@ -723,13 +723,13 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library">
-      <library name="omniauth-oauth2 (vbundled(1.4.0)) [path][gem]">
+      <library name="omniauth-oauth2 (vbundled(1.5.0)) [path][gem]">
         <CLASSES>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/omniauth-oauth2-1.4.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/omniauth-oauth2-1.5.0/lib" />
         </CLASSES>
         <JAVADOC />
         <SOURCES>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/omniauth-oauth2-1.4.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/omniauth-oauth2-1.5.0/lib" />
         </SOURCES>
       </library>
     </orderEntry>
@@ -959,19 +959,19 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library">
-      <library name="sass (vbundled(3.5.3)) [path][gem]">
+      <library name="sass (vbundled(3.5.4)) [path][gem]">
         <CLASSES>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/sass-3.5.3/bin" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/sass-3.5.3/lib" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/sass-3.5.3/extra" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/sass-3.5.3/rails" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/sass-3.5.4/bin" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/sass-3.5.4/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/sass-3.5.4/extra" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/sass-3.5.4/rails" />
         </CLASSES>
         <JAVADOC />
         <SOURCES>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/sass-3.5.3/bin" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/sass-3.5.3/lib" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/sass-3.5.3/extra" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/sass-3.5.3/rails" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/sass-3.5.4/bin" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/sass-3.5.4/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/sass-3.5.4/extra" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/sass-3.5.4/rails" />
         </SOURCES>
       </library>
     </orderEntry>
