@@ -554,6 +554,19 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library">
+      <library name="jquery-ui-rails (vbundled(6.0.1)) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/jquery-ui-rails-6.0.1/app" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/jquery-ui-rails-6.0.1/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/jquery-ui-rails-6.0.1/app" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/jquery-ui-rails-6.0.1/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
       <library name="jwt (vbundled(1.5.6)) [path][gem]">
         <CLASSES>
           <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/jwt-1.5.6/lib" />

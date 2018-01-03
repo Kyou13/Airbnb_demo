@@ -61,6 +61,7 @@ toastr.info('Are you the 6 fingered man?')
 - get 'manage-listing/:id/basics' => 'listings#basics', as: 'manage-listing_basics'    
     - 左から uri => action ,as: prefix
     
+- modelのreferencesは自動でbelong_to追加される    
 
 # TODO
 - current_user.providerとは

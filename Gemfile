@@ -71,3 +71,4 @@ end
 
 gem 'aws-sdk', '~> 2.3'
 gem 'geocoder'
+gem 'jquery-ui-rails'
