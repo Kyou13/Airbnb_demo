@@ -82,7 +82,7 @@
             </div>
 
             <div class="panel-body panel-real">
-              <%= form_for [@listing, @listing.reservations.new] do |f| %>
+              <%= form_for [@listing, @listing.reservations.new], url: new_listing_reservation_path(@listing), html: {method: "get"} do |f| %>
 
                   <!-- これは、予約をするときに、一緒におくる、データです。-->
                   <%= f.hidden_field :listing_id, value: @listing.id %>
@@ -200,6 +200,7 @@
     <div class="col-md-9">
       <h3 class="row-space-3">近くのリスティング</h3>
 
+      <% if @listing.nil? %>
       <% for listing in @listing.nearbys(10) %>
           <div class="col-md-4">
             <div class="panel panel-default">
@@ -224,6 +225,7 @@
               </div>
             </div>
           </div>
+      <% end %>
       <% end %>
 
     </div>
@@ -262,7 +264,7 @@
 
 </script>
 <script async defer
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB1BoiSo2jL950_AuFzV-f9ETgKn0uQl2I&signed_in=true&callback=initMap">
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDcsNR8QU6jwbxegz9YLs4y_HMiwLwc9Qg&signed_in=true&callback=initMap">
 </script>
 
 <script>
